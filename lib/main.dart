@@ -1,9 +1,7 @@
 import 'package:financial_rss_app/pages/news/ndtv_page.dart';
 import 'package:flutter/material.dart';
 import 'pages/home_page.dart';
-import 'pages/news/cnbc_detail_page.dart';
 import 'pages/news/cnbc_page.dart';
-import 'pages/news/ndtv_detail_page.dart';
 
 void main() {
   runApp(const MyApp());
