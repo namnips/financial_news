@@ -1,0 +1,119 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+    
+        {
+            "name": "Chrome (debug mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "debug",
+            "args": [
+                "-d",
+                "chrome",
+                "--web-renderer",
+                "html",
+            ]
+        },
+        {
+            "name": "Chrome (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "Chrome (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release",
+            "args": [
+                "-d",
+                "chrome",
+                "--web-renderer",
+                "html",
+            ]
+        },
+        {
+            "name": "iPhone 15 Pro Max (debug mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "debug",
+            "deviceId": "iPhone 15 Pro Max",
+            "args": [
+                "--observatory-port=8888"
+            ]
+        },
+        {
+            "name": "iPhone 15 Pro (debug mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "debug",
+            "deviceId": "iPhone 15 Pro",
+            "args": [
+                "--observatory-port=8888"
+            ]
+        },        
+        {
+            "name": "iPhone 8 Plus (debug mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "debug",
+            "deviceId": "iPhone 8 Plus",
+            "args": [
+                "--observatory-port=8888"
+            ]
+        },        
+        {
+            "name": "iPad Pro 12.9 6th Gen (debug mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "debug",
+            "deviceId": "iPad Pro",
+            "args": [
+                "--observatory-port=8888"
+            ]
+        },        
+        {
+            "name": "iPad Pro 12.9 2nd Gen (debug mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "debug",
+            "deviceId": "iPad Pro",
+            "args": [
+                "--observatory-port=8888"
+            ]
+        },        
+        {
+            "name": "macOS (debug mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "debug",
+            "args": [
+              "-d",
+              "macos"
+            ]
+        },
+        {
+            "name": "Android Emulator (debug mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "debug",
+            "deviceId": "emulator-5554",
+            "args": [
+                "--observatory-port=8888"
+            ]
+        },
+        {
+            "name": "Windows (debug mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "debug",
+            "args": [
+              "-d",
+              "windows"
+            ]
+        }
+    ]
+}
