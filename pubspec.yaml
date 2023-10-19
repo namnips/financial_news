@@ -37,7 +37,7 @@ dependencies:
   http: ^1.1.0
   xml2json: ^6.2.0
   flutter_launcher_icons: ^0.13.1               
-  build_runner:
+  
 
 # flutter pub get
 # flutter pub run flutter_launcher_icons
@@ -87,6 +87,7 @@ flutter:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  build_runner:
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
